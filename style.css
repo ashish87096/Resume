@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color:rgb(165, 225, 245);
+    --secolor:white
+}
+.firstcol{
+    padding: 10px 10px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inline{
+    display: inline;
+    word-wrap: break-word;
+    text-wrap: wrap;
+}
+.bold{
+    font-weight: bold;
+}
+.main{
+    display: flex;
+}
+.firstcol{
+    background-color:var(--color);
+}
+#name{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+}
+#heading{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+#personal-info{
+    margin: 10px;
+    border: 2px solid rgb(0, 98, 255);
+    border-radius: 5px;
+}
+.p-info{
+    font-size: 12px;
+}
+.secondcol{
+    padding: 10px;
+}
+.main-heading{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.sub-heading{
+    font-size: 20px;
+}
+.final-skill{
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+}
+/*.skill-1st-div{
+    display: flexbox;
+}*/
+@media only screen and (max-width:455px)
+{
+    #personal-info{
+        flex-wrap: wrap;
+    }
+}
